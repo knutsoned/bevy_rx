@@ -4,9 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-bevy_app = "0.13"
-bevy_ecs = "0.13"
-bevy_utils = "0.13"
+bevy_app = { version = "0.14.0-dev", git = "https://github.com/bevyengine/bevy", rev = "5c3ae32" }
+bevy_ecs = { version = "0.14.0-dev", git = "https://github.com/bevyengine/bevy", rev = "5c3ae32" }
+bevy_utils = { version = "0.14.0-dev", git = "https://github.com/bevyengine/bevy", rev = "5c3ae32" }
 
 [dev-dependencies]
-# bevy = { version = "0.13", default_features = false }
+# bevy = { version = "0.14.0-dev", git = "https://github.com/bevyengine/bevy", rev = "5c3ae32", default_features = false }
